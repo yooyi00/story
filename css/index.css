@@ -747,6 +747,7 @@ body {
     text-align: center;
     position: relative;
     margin: 70px auto;
+    z-index: 1;
   }
 
   #con06 .more a {
