@@ -1239,8 +1239,9 @@ body {
   #visual .visual_txt > p {
     color: #fff;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 30px 80px;
+    word-break: keep-all;
   }
 
   /*visual more*/
@@ -2149,6 +2150,30 @@ body {
 
 /*기타*/
 @media (max-width: 361px) {
+  /*visual*/
+  #visual .visual_txt h2 {
+    font-size: 2rem;
+  }
+  #visual .visual_txt p {
+    font-size: 0.8rem;
+  }
+
+  /*con01*/
+  #con01 {
+    height: 700px;
+  }
+
+  /*con01_txt*/
+  #con01 .con01_txt p {
+    font-size: 0.8rem;
+  }
+  #con01 .con01_txt h2 {
+    font-size: 1.2rem;
+  }
+  #con01 .con01_txt span {
+    font-size: 2rem;
+  }
+
   /*goal*/
   #con01 .goal {
     width: 100%;
@@ -2182,7 +2207,317 @@ body {
   }
 }
 
+@media (max-width: 440px) {
+  /*con02*/
+  #con02 .partnership {
+    width: 90%;
+    padding: 50px 20px 0px;
+  }
+  #con02 .program h2 {
+    font-size: 1.5rem;
+  }
+  #con02 .program h4 {
+    font-size: 0.8rem;
+  }
+  #con02 .program p {
+    font-size: 0.8rem;
+  }
+  #con02 .more {
+    width: 150px;
+  }
+  #con02 .more a {
+    font-size: 1rem;
+  }
+  #con02 .more .more_bg {
+    left: -150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 332px) {
+  #con02 .program h2 {
+    font-size: 1.2rem;
+  }
+  #con02 .program h4 {
+    font-size: 0.8rem;
+  }
+  #con02 .program p {
+    font-size: 0.8rem;
+  }
+  #con02 .program h2 > span {
+    font-size: 2.2rem;
+  }
+  #con02 .more {
+    width: 150px;
+  }
+  #con02 .more a {
+    font-size: 1rem;
+  }
+  #con02 .more .more_bg {
+    left: -150px;
+    width: 150px;
+  }
+
+  /*con03*/
+  #con03 {
+    width: 100%;
+    height: 300px;
+  }
+  #con03 ul {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+  #con03 li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #con03 li .content h5 {
+    font-size: 0.8rem;
+  }
+
+  /*con04*/
+  #con04 {
+    width: 100%;
+    height: 400px;
+  }
+  #con04 .performance h3 {
+    font-size: 1.5rem;
+  }
+  #con04 .performance h3 > span {
+    font-size: 2.5rem;
+  }
+  #con04 .category ul {
+    margin: 30px 0px 0px;
+  }
+  #con04 .category ul img {
+    width: 2rem;
+  }
+  #con04 .category ul p {
+    margin: 10px 0px;
+    font-size: 0.8rem;
+  }
+  #con04 .category li span {
+    font-size: 1.5rem;
+  }
+  #con04 .category li h2 {
+    font-size: 1rem;
+  }
+
+  /*con05*/
+  #con05 {
+    width: 100%;
+    height: 250px;
+  }
+  #con05 .aboutstorytaco {
+    width: 80%;
+    height: 90%;
+  }
+  #con05 .aboutstorytaco h5 {
+    font-size: 0.6rem;
+    margin-top: 20px;
+  }
+  #con05 .aboutstorytaco h2 {
+    font-size: 1rem;
+    margin: 0px 0px 20px;
+  }
+  #con05 .aboutstorytaco p {
+    margin-bottom: 30px;
+    font-size: 0.54rem;
+    line-height: 15px;
+  }
+  #con05 .aboutstorytaco h2 > span {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  #con05 .more {
+    width: 120px;
+    padding: 5px 5px 8px 5px;
+  }
+  #con05 .more a {
+    font-size: 0.8rem;
+  }
+  #con05 .more .more_bg {
+    width: 120px;
+    height: 34px;
+    padding: 5px 5px 8px 5px;
+    left: -120px;
+  }
+
+  /*con06*/
+  #con06 {
+    width: 100%;
+    height: 850px;
+  }
+  #con06 .special h2 {
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  #con06 .special h2 > span {
+    font-size: 2rem;
+  }
+  #con06 .special p {
+    font-size: 0.55rem;
+  }
+  #con06 .person {
+    width: 100%;
+  }
+  #con06 .person li {
+    width: calc(100% / 2 - 10px);
+    aspect-ratio: 1 / 1;
+    padding: 0px 0px;
+    border-radius: 20% 0% 20% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #con06 .person p {
+    font-size: 0.6rem;
+    margin: 10px 0px;
+  }
+  #con06 .person img {
+    width: 60px;
+  }
+  #con06 .more {
+    width: 120px;
+    padding: 5px 5px 8px 5px;
+  }
+  #con06 .more a {
+    font-size: 0.8rem;
+  }
+  #con06 .more .more_bg {
+    width: 120px;
+    height: 34px;
+    padding: 5px 5px 8px 5px;
+    left: -120px;
+  }
+
+  /*con07*/
+  #con07 {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 50px;
+  }
+  #con07 .games {
+    width: 90%;
+    padding: 0;
+  }
+  #con07 .games h2 {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+  #con07 .games h2 > span {
+    font-size: 2.2rem;
+  }
+  #con07 .slide {
+    width: 16.5rem;
+    height: 145px;
+  }
+  #con07 .content_box {
+    width: 16.5rem;
+    height: 180px;
+  }
+  #con07 .boxs > li {
+    padding: 0px 10px;
+  }
+  #con07 .boxs li div > h2 {
+    font-size: 0.8rem;
+  }
+  #con07 .boxs li div > p {
+    font-size: 0.55rem;
+    line-height: 15px;
+    word-break: keep-all;
+  }
+  #con07 .boxs .store {
+    width: 20%;
+    height: 30px;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  #con07 .boxs .store li img {
+    width: 100%;
+  }
+  #con07 .boxs .stores {
+    width: 35%;
+    height: 40px;
+    margin: 20px 0px 0px 0px;
+    gap: 5px;
+  }
+  #con07 .boxs .stores li {
+    width: 100%;
+  }
+  #con07 .boxs .stores li img {
+    width: 100%;
+  }
+  #con07 .arr {
+    width: 4.5rem;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.6rem;
+    right: 0.8rem;
+    bottom: 10px;
+  }
+
+  /*con08*/
+  #con08 {
+    height: 200px;
+  }
+  #con08 .job h2 {
+    font-size: 1rem;
+  }
+  #con08 .job h2 span {
+    font-size: 2rem;
+  }
+  #con08 .welcome {
+    font-size: 0.7rem;
+  }
+  #con08 .more {
+    width: 150px;
+    padding: 5px 5px 8px 5px;
+    margin: 20px auto;
+  }
+  #con08 .more a {
+    font-size: 0.8rem;
+  }
+  #con08 .more .more_bg {
+    width: 150px;
+    height: 34px;
+    padding: 5px 5px 8px 5px;
+    left: -150px;
+  }
+
+  /*footer*/
+  #footer {
+    height: 200px;
+  }
+  #footer .left_con .custom img {
+    width: 1.8rem;
+  }
+  #footer .left_con h5 {
+    font-size: 0.6rem;
+  }
+  #footer .left_con .adress {
+    font-size: 0.55rem;
+  }
+}
+
 @media (min-width: 361px) and (max-width: 475px) {
+  /*con01_txt*/
+  #con01 .con01_txt p {
+    font-size: 1rem;
+  }
+  #con01 .con01_txt h2 {
+    font-size: 1.5rem;
+  }
+  #con01 .con01_txt span {
+    font-size: 3rem;
+  }
+
   /*goal*/
   #con01 .goal {
     width: 100%;
