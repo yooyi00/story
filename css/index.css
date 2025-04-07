@@ -2235,6 +2235,13 @@ body {
 }
 
 @media (max-width: 332px) {
+  /*header*/
+  header h1 {
+    width: 200px;
+    padding: 0px 20px;
+  }
+
+  /*con02*/
   #con02 .program h2 {
     font-size: 1.2rem;
   }
