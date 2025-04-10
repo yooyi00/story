@@ -3442,6 +3442,7 @@ body {
   }
   #con06 .person {
     width: 100%;
+    gap: 10px;
   }
   #con06 .person li {
     width: calc(100% / 2 - 10px);
