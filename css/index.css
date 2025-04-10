@@ -3493,21 +3493,21 @@ body {
     font-size: 2.2rem;
   }
   #con07 .slide {
-    width: 16.5rem;
+    width: 15rem;
     height: 145px;
   }
   #con07 .content_box {
-    width: 16.5rem;
+    width: 15rem;
     height: 180px;
   }
   #con07 .boxs > li {
     padding: 0px 10px;
   }
   #con07 .boxs li div > h2 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   #con07 .boxs li div > p {
-    font-size: 0.55rem;
+    font-size: 0.5rem;
     line-height: 15px;
     word-break: keep-all;
   }
@@ -3574,13 +3574,13 @@ body {
     height: 200px;
   }
   #footer .left_con .custom img {
-    width: 1.8rem;
+    width: 1.5rem;
   }
   #footer .left_con h5 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   #footer .left_con .adress {
-    font-size: 0.55rem;
+    font-size: 0.5rem;
   }
 }
 
